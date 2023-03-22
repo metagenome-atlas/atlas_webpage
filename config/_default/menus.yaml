@@ -16,12 +16,10 @@ main:
   - name: Forum
     url: 'https://github.com/metagenome-atlas/atlas/discussions'
     weight: 40
-  - name: Publications
+  - name: Citation
     url: '#featured'
     weight: 50
-  - name: Twitter
-    url: 'https://twitter.com/SilasKieser'
-    weight: 60
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

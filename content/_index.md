@@ -5,37 +5,6 @@ date: 2023-03-22
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: Hugo Academic Theme
-      image:
-        filename: hero-academic.png
-      cta:
-        label: '**Get Started**'
-        url: https://wowchemy.com/templates/
-      cta_alt:
-        label: Ask a question
-        url: https://discord.gg/z8wNYzb
-      cta_note:
-        label: >-
-          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
-      text: |-
-
-        {{% callout note %}}
-
-        [Remote Atlas Tutorial](https://silask.github.io/talk/tutorial-at-the-ismb-2023/)
-        {{% /callout %}}
-
-
-        <!--Custom spacing-->
-        <div class="mb-3"></div>
-        <!--GitHub Button JS-->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-    design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
   # - block: about.avatar
   #   id: about
   #   content:
@@ -48,10 +17,10 @@ sections:
     content:
       title: Metagenome-Atlas
       subtitle: 
-      maintext: |-
+      text: |-
           {{< figure library="true" src="atlas_scheme.png" title="Scheme of workflow" width="400px" >}}
 
-          Metagenome-atlas is a easy-to-use metagenomic pipeline based on [snakemake](https://snakemake.github.io/). It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
+          Metagenome-atlas is a easy-to-use metagenomic pipeline. It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
 
           The pipline is easy to use. You can start using atlas with three commands:
 
@@ -64,8 +33,8 @@ sections:
           ![So easy a caveman could do it](img/caveman.jpg)
 
 
-          Atlas has only one dependency: [conda](http://anaconda.org/). All databases and other dependencies are installed **on the fly**.
-          Atlas is based on snakemake which allows to run steps of the workflow in parallel on a cluster.
+          Atlas has only one dependency: [conda](http://anaconda.org/); all databases and other dependencies are installed **on the fly**.
+          Atlas is based on [snakemake](https://snakemake.github.io/) which enables it to run steps of the workflow in parallel on a cluster.
 
 
           <!-- ## See metagenome atlas in action
@@ -83,15 +52,18 @@ sections:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-
-
-
   - block: markdown
     content:
-      title: Get Started
+      title: What is next
       subtitle: 
-      maintext: |-
+      maintext: |
         
+
+              
+          {{% callout note %}}
+
+          [Remote Atlas Tutorial](https://silask.github.io/talk/tutorial-at-the-ismb-2023/)
+          {{% /callout %}}
         
 
         - [Get Started](https://metagenome-atlas.readthedocs.io/en/latest/usage/getting_started.html)
