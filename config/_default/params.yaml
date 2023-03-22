@@ -6,20 +6,20 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: dark
+  theme_night: dark
   font: minimal
-  font_size: L
+  font_size: XL
 
 # SEO
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'Metagenome Atlas'
+    description: 'Three commands to start analyzing your metagenome data'
+    twitter: 'SilasKieser'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,10 +43,10 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Silas Kieser. This work is licensed under {license}'
     license:
-      enable: true
-      allow_derivatives: false
+      enable: false
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
 
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/metagenome-atlas/atlas'
     content_dir: content
     branch: main
   avatar:
