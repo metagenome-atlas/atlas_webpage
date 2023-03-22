@@ -77,8 +77,6 @@ sections:
 
 
 
-
-
   - block: markdown
     design:
       columns: '1'
