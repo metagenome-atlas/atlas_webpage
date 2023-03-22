@@ -22,7 +22,7 @@ sections:
       title: Metagenome-Atlas
       subtitle: 
       text: |-
-        {{< figure src="atlas_scheme.png" title="Scheme of workflow" width="400px" numbered="false" >}}
+        {{< figure src="atlas_scheme.png" title="Scheme of workflow" width="700px" numbered="false" >}}
 
         Metagenome-atlas is a easy-to-use metagenomic pipeline. It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
 
