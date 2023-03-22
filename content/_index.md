@@ -14,58 +14,57 @@ sections:
   #     text:
 
   - block: markdown
-    content:
-      title: Metagenome-Atlas
-      subtitle: 
-      text: |-
-          {{< figure library="true" src="atlas_scheme.png" title="Scheme of workflow" width="400px" >}}
-
-          Metagenome-atlas is a easy-to-use metagenomic pipeline. It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
-
-          The pipline is easy to use. You can start using atlas with three commands:
-
-          ```
-              mamba install -y -c bioconda -c conda-forge metagenome-atlas
-              atlas init --db-dir databases path/to/fastq/files
-              atlas run all
-          ```
-
-          ![So easy a caveman could do it](img/caveman.jpg)
-
-
-          Atlas has only one dependency: [conda](http://anaconda.org/); all databases and other dependencies are installed **on the fly**.
-          Atlas is based on [snakemake](https://snakemake.github.io/) which enables it to run steps of the workflow in parallel on a cluster.
-
-
-          <!-- ## See metagenome atlas in action
-          [Video](https://asciinema.org/a/337467)
-          <script async id="asciicast-337467" src="https://asciinema.org/a/337467.js" charset="utf-8"></script>
-          -->
-
-
-
-          <!-- [![asciicast](https://asciinema.org/a/337467.svg)](https://asciinema.org/a/337467) -->
-
-
-
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
+    content:
+      title: Metagenome-Atlas
+      subtitle: 
+      text: |-
+        {{< figure library="true" src="atlas_scheme.png" title="Scheme of workflow" width="400px" >}}
+
+        Metagenome-atlas is a easy-to-use metagenomic pipeline. It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
+
+        The pipline is easy to use. You can start using atlas with three commands:
+
+        ```
+            mamba install -y -c bioconda -c conda-forge metagenome-atlas
+            atlas init --db-dir databases path/to/fastq/files
+            atlas run all
+        ```
+
+        ![So easy a caveman could do it](img/caveman.jpg)
+
+
+        Atlas has only one dependency: [conda](http://anaconda.org/); all databases and other dependencies are installed **on the fly**.
+        Atlas is based on [snakemake](https://snakemake.github.io/) which enables it to run steps of the workflow in parallel on a cluster.
+
+
+        <!-- ## See metagenome atlas in action
+        [Video](https://asciinema.org/a/337467)
+        <script async id="asciicast-337467" src="https://asciinema.org/a/337467.js" charset="utf-8"></script>
+        -->
+
+
+
+        <!-- [![asciicast](https://asciinema.org/a/337467.svg)](https://asciinema.org/a/337467) -->
+
+
+
   - block: markdown
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
     content:
       title: What is next
       subtitle: 
       text: |-
+        {{% callout note %}}
+        [Remote Atlas Tutorial](https://silask.github.io/talk/tutorial-at-the-ismb-2023/)
+        {{% /callout %}}
         
-
-              
-          {{% callout note %}}
-
-          [Remote Atlas Tutorial](https://silask.github.io/talk/tutorial-at-the-ismb-2023/)
-          {{% /callout %}}
-        
-
         - [Get Started](https://metagenome-atlas.readthedocs.io/en/latest/usage/getting_started.html)
 
         - [Join the forum](https://github.com/metagenome-atlas/atlas/discussions)
@@ -77,14 +76,12 @@ sections:
         - [Do the Tutorial](https://github.com/metagenome-atlas/Tutorial)
 
 
-    design:
-      # See Page Builder docs for all section customization options.
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
 
 
 
   - block: markdown
+    design:
+      columns: '1'
     content:
       title: Others on Metagenome-Atlas
       subtitle: 
@@ -102,10 +99,6 @@ sections:
 
 
 
-
-
-
-
         <!-- # Article
 
         ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data.  
@@ -116,10 +109,7 @@ sections:
 
 
 
-    design:
-      # See Page Builder docs for all section customization options.
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+
 
 
 # - block: features
