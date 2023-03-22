@@ -9,4 +9,5 @@ node_modules/
 go.sum
 .hugo_build.lock
 
-temp_content
+temp_content/
+content/old_home
