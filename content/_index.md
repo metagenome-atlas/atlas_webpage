@@ -85,7 +85,7 @@ sections:
     content:
       title: Others on Metagenome-Atlas
       subtitle: 
-      maintext: |-
+      text: |-
         
 
         <a class="twitter-timeline" data-height="800" data-width="800" data-theme="dark" href="https://twitter.com/SilasKieser/timelines/1270049886436646912?ref_src=twsrc%5Etfw">Others on Metagenome Atlas </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
