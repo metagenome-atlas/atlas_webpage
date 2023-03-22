@@ -4,23 +4,23 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '#about'
+  - name: Code
+    url: 'https://github.com/metagenome-atlas/atlas'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Documentation
+    url: 'https://metagenome-atlas.rtfd.io'
     weight: 20
-  - name: Projects
-    url: '#projects'
+  - name: Article
+    url: 'https://doi.org/10.1186/s12859-020-03585-4'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Forum
+    url: 'https://github.com/metagenome-atlas/atlas/discussions'
     weight: 40
   - name: Publications
     url: '#featured'
     weight: 50
-  - name: Contact
-    url: '#contact'
+  - name: Twitter
+    url: 'https://twitter.com/SilasKieser'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
