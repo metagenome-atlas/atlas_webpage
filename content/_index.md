@@ -56,7 +56,7 @@ sections:
     content:
       title: What is next
       subtitle: 
-      maintext: |
+      text: |-
         
 
               
