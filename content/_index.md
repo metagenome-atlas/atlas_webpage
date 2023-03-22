@@ -22,7 +22,7 @@ sections:
       title: Metagenome-Atlas
       subtitle: 
       text: |-
-        {{< figure library="true" src="atlas_scheme.png" title="Scheme of workflow" width="400px" >}}
+        {{< figure src="atlas_scheme.png" title="Scheme of workflow" width="400px" numbered="false" >}}
 
         Metagenome-atlas is a easy-to-use metagenomic pipeline. It handles all steps from QC, Assembly, Binning, to Annotation & Quantification.
 
@@ -34,7 +34,7 @@ sections:
             atlas run all
         ```
 
-        ![So easy a caveman could do it](img/caveman.jpg)
+        ![So easy a caveman could do it](caveman.jpg)
 
 
         Atlas has only one dependency: [conda](http://anaconda.org/); all databases and other dependencies are installed **on the fly**.
